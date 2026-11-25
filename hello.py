@@ -35,6 +35,8 @@ print("Hii, ",name)
 school = input("What is ur school name?").strip().title()
 print("School Name: ",school)
 
+
+# .split() - is used to split the string 
 first , last = school.split(" ")
 print("First name:",first)
 print("Last name:",last)
